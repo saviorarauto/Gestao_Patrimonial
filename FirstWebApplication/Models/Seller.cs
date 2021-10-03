@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Gestao_Patrimonial.Models
 {
     public class Seller
     {
+        [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         
         [Required]

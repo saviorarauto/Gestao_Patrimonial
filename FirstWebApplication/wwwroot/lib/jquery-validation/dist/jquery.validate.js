@@ -384,7 +384,10 @@ $.extend( $.validator, {
 
 		init: function() {
 			this.labelContainer = $( this.settings.errorLabelContainer );
-			this.errorContext = this.labelContainer.length && this.labelContainer || $( this.currentForm );
+			this.error
+
+
+				= this.labelContainer.length && this.labelContainer || $(this.currentForm);
 			this.containers = $( this.settings.errorContainer ).add( this.settings.errorLabelContainer );
 			this.submitted = {};
 			this.valueCache = {};
