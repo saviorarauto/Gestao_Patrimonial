@@ -84,7 +84,7 @@ using Gestao_Patrimonial.Models;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(382, 54, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ae7b6d4dfab14f1faf503e25a8328ab9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b0d8e5006a4e4f76828b314b12e61da9", async() => {
                 BeginContext(428, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -119,7 +119,7 @@ using Gestao_Patrimonial.Models;
             WriteLiteral(" |\r\n    ");
             EndContext();
             BeginContext(444, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2184cb09ea384ba7a135ff86587ed1d4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "889ec4729797430092ae7e97ac6cfb9a", async() => {
                 BeginContext(466, 12, true);
                 WriteLiteral("Back to List");
                 EndContext();
