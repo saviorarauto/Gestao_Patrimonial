@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "efOd/hQ11PFhzzF9sIUqbYRVZH7N3W/JxwMnUTt5p9g3FrNTWW09nen0D5ovT77Kg4aHVCh22t02QK9g8yM0dQ==",
+  "dgSpecHash": "QGPK7Xio4ET6ywq6XUQz5BtK5kuOQ1xdsvzF3OsOwSdKV9bYHeSfhUyIzNK5Fq/WDJWUbiYfq2GcUEMvEswW/g==",
   "success": true,
   "projectFilePath": "C:\\Users\\usuario\\OneDrive\\Área de Trabalho\\Projetos Pessoais\\Primeiro Projeto\\Projeto de Cadastro de Patrimônio\\FirstWebApplication\\Gestao_Patrimonial.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\usuario\\.nuget\\packages\\bootstrap\\5.1.0\\bootstrap.5.1.0.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\microsoft.aspnetcore\\2.1.7\\microsoft.aspnetcore.2.1.7.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",

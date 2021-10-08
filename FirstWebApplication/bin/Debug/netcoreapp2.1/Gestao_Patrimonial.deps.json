@@ -40,7 +40,8 @@
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Web.BrowserLink": "2.1.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.10",
-          "Pomelo.EntityFrameworkCore.MySql": "2.1.1"
+          "Pomelo.EntityFrameworkCore.MySql": "2.1.1",
+          "bootstrap": "5.1.0"
         },
         "runtime": {
           "Gestao_Patrimonial.dll": {}
@@ -49,6 +50,7 @@
           "Gestao_Patrimonial.dll": {}
         }
       },
+      "bootstrap/5.1.0": {},
       "Microsoft.AspNetCore/2.1.7": {
         "dependencies": {
           "Microsoft.AspNetCore.Diagnostics": "2.1.1",
@@ -3714,6 +3716,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "bootstrap/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X3pFGTRx6qZxkybkit5OGMQDIJHu2uQ1lQSmyqa7iJx8MASsJdfvBUCtzsyiEbSDI7LUuSLitCbaMn2OPFszWg==",
+      "path": "bootstrap/5.1.0",
+      "hashPath": "bootstrap.5.1.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore/2.1.7": {
       "type": "package",

@@ -20,7 +20,8 @@ namespace Gestao_Patrimonial.Data
         {
             if (_context.Department.Any() ||
                 _context.Seller.Any() ||
-                _context.SalesRecord.Any())
+                _context.SalesRecord.Any() ||
+                _context.User.Any())
             {
                 return; //DB has been seeded
             }
@@ -45,6 +46,9 @@ namespace Gestao_Patrimonial.Data
             Seller s5 = new Seller { Name = "Donald Blue", Email = "donald@gmail.com", BirthDate = new DateTime(2000, 1, 9), BaseSalary = 4000.0, Department = d3 }; ;
             //Seller s6 = new Seller(6, "Alex Pink", "bob@gmail.com", new DateTime(1997, 3, 4), 3000.0, d2);
             Seller s6 = new Seller { Name = "Alex Pink", Email = "bob@gmail.com", BirthDate = new DateTime(1997, 3, 4), BaseSalary = 3000.0, Department = d2 }; ;
+
+            User u1 = new User { Name = "Magno Costa", Phone = "(24) 98150-8586", Email = "magno.costa@agevap.org.br" };
+            User u2 = new User { Name = "Administrador", Phone = "(24) 98150-8586", Email = "adm@agevap.org.br" };
 
             //SalesRecord r1 = new SalesRecord(1, new DateTime(2018, 09, 25), 11000.0, SalesStatus.Billed, s1);
             //SalesRecord r2 = new SalesRecord(2, new DateTime(2018, 09, 4), 7000.0, SalesStatus.Billed, s5);
@@ -82,6 +86,7 @@ namespace Gestao_Patrimonial.Data
             SalesRecord r3 = new SalesRecord { Date = new DateTime(2021, 09, 13), Amount = 4000.0, Status = SalesStatus.Canceled, Seller = s4 };
             
 
+
             _context.Department.AddRange(d1, d2, d3, d4);
 
             _context.Seller.AddRange(s1, s2, s3, s4, s5, s6);
@@ -92,6 +97,8 @@ namespace Gestao_Patrimonial.Data
                 //r21, r22, r23, r24, r25, r26, r27, r28, r29, r30
                 r1, r2, r3
             );
+
+            _context.User.AddRange(u1, u2);
 
             _context.SaveChanges();
 
