@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Gestao_Patrimonial.Data;
 using Gestao_Patrimonial.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Gestao_Patrimonial.Controllers
 {
+    [Authorize]
     public class UsersController : Controller
     {
         private readonly Gestao_PatrimonialContext _context;

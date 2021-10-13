@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Gestao_Patrimonial.Data;
 using Gestao_Patrimonial.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Gestao_Patrimonial.Controllers
 {
+    [Authorize]
     public class DepartmentsController : Controller
     {
         private readonly Gestao_PatrimonialContext _context;
@@ -20,12 +22,14 @@ namespace Gestao_Patrimonial.Controllers
         }
 
         // GET: Departments
+        //[Authorize]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Department.ToListAsync());
         }
 
         // GET: Departments/Details/5
+        //[Authorize]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -44,6 +48,7 @@ namespace Gestao_Patrimonial.Controllers
         }
 
         // GET: Departments/Create
+        //[Authorize]
         public IActionResult Create()
         {
             return View();

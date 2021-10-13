@@ -9,9 +9,11 @@ using System.Threading.Tasks;
 using Gestao_Patrimonial.Models.ViewModel;
 using Gestao_Patrimonial.Services.Exceptions;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Gestao_Patrimonial.Controllers
 {
+    [Authorize]
     public class SellersController : Controller
     {
         private readonly SellerService _sellerService;

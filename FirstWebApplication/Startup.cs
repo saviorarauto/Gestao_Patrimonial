@@ -15,6 +15,8 @@ using Gestao_Patrimonial.Models;
 using Gestao_Patrimonial.Data;
 using Gestao_Patrimonial.Services;
 using System.Globalization;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Routing;
 
 namespace Gestao_Patrimonial
 {
@@ -30,6 +32,7 @@ namespace Gestao_Patrimonial
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
@@ -37,6 +40,10 @@ namespace Gestao_Patrimonial
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            services.AddMvc().AddRazorPagesOptions(opt => {
+                opt.RootDirectory = "/pg";
+                opt.AllowAreas = true;
+            });
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             
@@ -48,6 +55,7 @@ builder.MigrationsAssembly("Gestao_Patrimonial")));
             services.AddScoped<SellerService>();
             services.AddScoped<DepartmentService>();
             services.AddScoped<SalesRecordService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -78,12 +86,24 @@ builder.MigrationsAssembly("Gestao_Patrimonial")));
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
+            
+            
+            //app.UseRouting();
+
+            //to be added
+            app.UseAuthentication();
+            //app.UseAuthorization();
+
+            
+
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
-            });
+            //template: "{controller=Home}/{action=Index}/{id?}");
+        });
         }
     }
 }

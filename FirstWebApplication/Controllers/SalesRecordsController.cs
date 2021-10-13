@@ -4,9 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Gestao_Patrimonial.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Gestao_Patrimonial.Controllers
 {
+    [Authorize]
     public class SalesRecordsController : Controller
     {
         private readonly SalesRecordService _salesRecordService;

@@ -1,5 +1,6 @@
 ﻿using Gestao_Patrimonial.Models;
 using Gestao_Patrimonial.Models.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -9,8 +10,10 @@ using System.Threading.Tasks;
 
 namespace Gestao_Patrimonial.Controllers
 {
+    
     public class HomeController : Controller
     {
+        [Authorize]
         public IActionResult Index()
         {
             return View();
