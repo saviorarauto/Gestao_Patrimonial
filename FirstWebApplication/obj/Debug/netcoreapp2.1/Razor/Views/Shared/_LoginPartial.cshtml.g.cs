@@ -87,7 +87,7 @@ using Gestao_Patrimonial.Areas.Identity.Data;
             WriteLiteral("    <li class=\"dropdown\">\r\n        <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-expanded=\"false\">Databases <span class=\"caret\"></span></a>\r\n        <ul class=\"dropdown-menu\" role=\"menu\">\r\n            <li>");
             EndContext();
             BeginContext(534, 78, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e8a9ce1c228147c49d2c0cc061cb1a69", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9d80a95f782d44b3b28ef579bd15078c", async() => {
                 BeginContext(597, 11, true);
                 WriteLiteral("Departments");
                 EndContext();
@@ -113,7 +113,7 @@ using Gestao_Patrimonial.Areas.Identity.Data;
             WriteLiteral("</li>\r\n            <li>");
             EndContext();
             BeginContext(635, 70, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "11bb34f9cd2244eeb25a455597ad0ef4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f137575c57524110a2ce5a4e37d7e256", async() => {
                 BeginContext(694, 7, true);
                 WriteLiteral("Sellers");
                 EndContext();
@@ -139,7 +139,7 @@ using Gestao_Patrimonial.Areas.Identity.Data;
             WriteLiteral("</li>\r\n            <li>");
             EndContext();
             BeginContext(728, 73, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a4ee6efe44944bb4bab58b9fcbfa1471", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7aa448557a9145d5ba5418609235e6b7", async() => {
                 BeginContext(792, 5, true);
                 WriteLiteral("Sales");
                 EndContext();
@@ -165,7 +165,7 @@ using Gestao_Patrimonial.Areas.Identity.Data;
             WriteLiteral("</li>\r\n            <li>");
             EndContext();
             BeginContext(824, 66, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c6cf9363c5a044b0b13ddd8b4748b694", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "80dc6049a2a0494e8115a8ac49261136", async() => {
                 BeginContext(881, 5, true);
                 WriteLiteral("Users");
                 EndContext();
@@ -191,12 +191,12 @@ using Gestao_Patrimonial.Areas.Identity.Data;
             WriteLiteral("</li>\r\n        </ul>\r\n    </li>\r\n    ");
             EndContext();
             BeginContext(927, 548, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c72dcf76899c40199abf718e2fa9b99a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "435b411ec5164c84afdce176975963ce", async() => {
                 BeginContext(1092, 86, true);
                 WriteLiteral("\r\n        <ul class=\"nav navbar-nav navbar-right\">\r\n            <li>\r\n                ");
                 EndContext();
                 BeginContext(1178, 114, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63b7ad0266984fc9a23a35d19421dd15", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "caf1a223803848d094b7f940ca61aba3", async() => {
                     BeginContext(1249, 8, true);
                     WriteLiteral("Welcome ");
                     EndContext();
