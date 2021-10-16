@@ -1,9 +1,10 @@
 ﻿@page
 @model RegisterModel
 
-@{ ViewData["Title"] = "Register"; }
-
-@{ Layout = "~/Areas/Identity/Pages/_AuthLayout.cshtml"; }
+@{
+    ViewData["Title"] = "Log in";
+    Layout = "~/Areas/Identity/Pages/_AuthLayout.cshtml";
+}
 
 <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
     <div asp-validation-summary="All" class="text-danger"></div>

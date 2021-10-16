@@ -3,6 +3,8 @@
 @inject SignInManager<ApplicationUser> SignInManager
 @inject UserManager<ApplicationUser> UserManager
 
+<!--Essa página é carregada apenas após o login do usuário-->
+
 @if (SignInManager.IsSignedIn(User))
 {
     <li class="dropdown">

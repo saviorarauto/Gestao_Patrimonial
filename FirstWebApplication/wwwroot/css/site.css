@@ -6,19 +6,28 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-/*for tab control*/
+/*Aqui ele alinha a imagem de login*/
+div.login-form-icon {
+    text-align: center;
+}
+/* Wrapping element */
+
+/*Aqui ele dá um espaço entre o icone e a barra de navegação*/
 div.login-logout-tab div.card-header {
     padding: 0px 0px 12px 0px;
 }
 
+/*Aqui ele dá um espaço entre o icone e a barra de navegação*/
 div.login-logout-tab ul.nav-tabs {
     margin: 0px 0px -12px 0px;
 }
 
+/*Aqui ele as abas pela metade*/
 div.login-logout-tab li.nav-item {
     width: 50%;
 }
 
+/*Aqui ele formata as letras das abas*/
 div.login-logout-tab a.nav-link {
     font-size: 25px;
     color: #495057;
@@ -26,18 +35,7 @@ div.login-logout-tab a.nav-link {
 }
 
 div.card-content {
-    padding: 10px 20px;
-}
-
-/*login form*/
-div.login-form-icon {
-    text-align: center;
-}/* Wrapping element */
-
-    /* Set some basic padding to keep content from hitting the edges */
-    .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 20px 20px;
 }
 
 /* Carousel */
